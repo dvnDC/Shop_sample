@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cad15997-654a-4c58-ae1c-07560058927f" name="Changes" comment="init files">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/static_pages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/static_pages_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/static_pages/help.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb" afterDir="false" />
+    <list default="true" id="cad15997-654a-4c58-ae1c-07560058927f" name="Changes" comment="Routes file updated">
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/users.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/_head.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/_shim.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/static_pages/about.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/static_pages/contact.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Guardfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/site_layout_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Shop_sample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Shop_sample.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="Ruby File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -96,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636724029545</updated>
-      <workItem from="1636724034974" duration="3691000" />
+      <workItem from="1636724034974" duration="6800000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore changes">
       <created>1636725715846</created>
@@ -112,7 +126,63 @@
       <option name="project" value="LOCAL" />
       <updated>1636725978451</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changes to Gemfile">
+      <created>1636728214855</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636728214856</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated Readme">
+      <created>1636728253197</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636728253197</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added first static views">
+      <created>1636728274714</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636728274714</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Created empty scss and helper for static_pages">
+      <created>1636728331194</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1636728331194</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added static_pages controller">
+      <created>1636728347054</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1636728347054</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Generated schema file">
+      <created>1636728361178</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1636728361178</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added first unit tests">
+      <created>1636728377162</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1636728377162</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Routes file updated">
+      <created>1636728387184</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1636728387184</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +199,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="1-create-static-pages" />
                       </list>
                     </value>
                   </entry>
@@ -144,9 +214,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=".gitignore changes" />
     <MESSAGE value="init files" />
-    <option name="LAST_COMMIT_MESSAGE" value="init files" />
+    <MESSAGE value="Changes to Gemfile" />
+    <MESSAGE value="Updated Readme" />
+    <MESSAGE value="Added first static views" />
+    <MESSAGE value="Created empty scss and helper for static_pages" />
+    <MESSAGE value="Added static_pages controller" />
+    <MESSAGE value="Generated schema file" />
+    <MESSAGE value="Added first unit tests" />
+    <MESSAGE value="Routes file updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Routes file updated" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Shop_sample@All_tests_in_test__Shop_sample.rcov" NAME="All tests in test: Shop_sample Coverage Results" MODIFIED="1636727716064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Shop_sample" />
+    <SUITE FILE_PATH="coverage/Shop_sample@All_tests_in_test__Shop_sample.rcov" NAME="All tests in test: Shop_sample Coverage Results" MODIFIED="1636730446821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Shop_sample" />
   </component>
 </project>
