@@ -4,7 +4,7 @@ This is the sample application for University of Gdansk project.
 ## License
 
 All source code is available jointly under the MIT License. 
-See[LICENSE.md](LICENSE.md) for details.
+See [LICENSE.md](LICENSE.md) for details.
 
 ## Getting started
 
