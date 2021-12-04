@@ -14,9 +14,8 @@ gem "stimulus-rails", ">= 0.4.0"
 gem "jbuilder", "~> 2.7"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", ">= 1.4.4", require: false
+gem "bcrypt", "~> 3.1.7"
 
-# Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
-# gem "bcrypt", "~> 3.1.7"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 # Use Sass to process CSS
