@@ -3,6 +3,8 @@
 <head>
   <title><%= full_title(yield(:title)) %></title>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <%= render 'layouts/rails_default' %>
   <%= render 'layouts/shim' %>
 </head>
@@ -11,6 +13,16 @@
 <div class="container">
   <%= yield %>
   <%= render 'layouts/footer' %>
+  <% if Rails.env.development? %>
+    <div class=".container-fluid">
+      <div class="custom-container">
+        <br/>
+        <%= debug(params) %>
+        <%= debug(session.to_hash) %>
+      </div>
+    </div>
+  <% end %>
 </div>
 </body>
 </html>
+
