@@ -1,8 +1,14 @@
-<% provide(:title, "Home") %>
-<div class="center">
-<h1>Welcome to the Shopone</h1>
-  <h2>This is the home page for the <a href="https://github.com/dvnDC/shopone">project</a>.</h2>
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+<div class="mb-5 mb-lg-2 mx-auto text-center" style="max-width: 32rem;">
+  <div class="mb-5">
+    <h2 class="mb-3 fs-1 fw-bold">
+      <span>Welcome to the </span>
+      <span class="text-primary">Shopone</span>
+    </h2>
+    <p class="lead text-muted mb-0">This is the home page for the project.</p>
+  </div>
+  <div>
+    <%= link_to "Check Now", 'https://github.com/dvnDC/shopone', class: "btn btn-primary me-2" %>
+    <%= link_to "Documentation", '#', class: "btn btn-outline-primary" %>
+  </div>
 </div>
 
-<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"), "https://rubyonrails.org/" %>
