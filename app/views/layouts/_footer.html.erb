@@ -1,26 +1,13 @@
 <footer class="footer">
-  <nav class="navbar navbar-expand-lg navbar-light">
-
-
-    <div class="container-fluid">
-      <div class="navbar-nav">
-        <small>
-          <%= link_to "The Shopone application", "#", class: "nav-link" %>
-          <%= link_to "By Damian Cichosz", "https://github.com/dvnDC/shopone", class: "nav-link" %>
-        </small>
-      </div>
-
-
-      <ul class="navbar navbar-expand navbar-light">
-        <div class="container-fluid">
-          <ul class="navbar-nav">
-            <%= link_to "About", about_path, class: "nav-link" %>
-            <%= link_to "Contact", contact_path, class: "nav-link" %>
-            <%= link_to "News", "https://github.com/dvnDC/shopone", class: "nav-link" %>
-          </ul>
-        </div>
-      </ul>
-    </div>
-
+  <small>
+    The <a href="https://rubyonrails.org/">Ruby on Rails Website</a>
+    by <a href="https://www.michaelhartl.com/">Damian Cichosz</a>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to "About", about_path %></li>
+      <li><%= link_to "Contact", contact_path %></li>
+      <li><a href="https://google.com/">News</a></li>
+    </ul>
   </nav>
 </footer>

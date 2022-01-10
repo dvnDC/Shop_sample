@@ -1,14 +1,29 @@
-<div class="mb-5 mb-lg-2 mx-auto text-center" style="max-width: 32rem;">
-  <div class="mb-5">
-    <h2 class="mb-3 fs-1 fw-bold">
-      <span>Welcome to the </span>
-      <span class="text-primary">Shopone</span>
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render 'shared/user_info' %>
+      </section>
+      <section class="stats">
+        <%= render 'shared/stats' %>
+      </section>
+      <section class="micropost_form">
+        <%= render 'shared/micropost_form' %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3>Micropost Feed</h3>
+      <%= render 'shared/feed' %>
+    </div>
+  </div>
+<% else %>
+  <div class="center jumbotron">
+    <h1>Welcome to Shopone!</h1>
+    <h2>
+      This is the test home page. Visit
+      <a href="https://github.com/dvnDC">GitHub</a>
     </h2>
-    <p class="lead text-muted mb-0">This is the home page for the project.</p>
+    <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
   </div>
-  <div>
-    <%= link_to "Check Now", 'https://github.com/dvnDC/shopone', class: "btn btn-primary me-2" %>
-    <%= link_to "Documentation", '#', class: "btn btn-outline-primary" %>
-  </div>
-</div>
-
+  <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"), "https://rubyonrails.org/" %>
+<% end %>
