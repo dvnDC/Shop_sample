@@ -17,6 +17,10 @@ Next, migrate the database:
 ```
 $ rails db:migrate
 ```
+Optional - seed random data (users, posts, offers) into database:
+```
+$ rails db:seed
+```
 Finally, run the test suite to verify that everything is working correctly:
 ```
 $ rails test
