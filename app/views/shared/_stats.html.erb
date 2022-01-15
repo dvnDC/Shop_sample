@@ -12,10 +12,11 @@
     </strong>
     followers
   </a>
-  <a href="">
+  <a href="<%= items_path %>">
     <strong id="following" class="stat">
-      <%= 0 %>
+      <%= @user.items.count %>
     </strong>
     offers
   </a>
 </div>
+<%= link_to "Add new offer", new_item_path, class: "btn btn-primary" %>
