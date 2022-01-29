@@ -10,6 +10,10 @@ class ItemsController < ApplicationController
     @item = Item.new
   end
 
+  def show
+    @item = Item.find(params[:id])
+  end
+
   def create
     @item = current_user.items.build(item_params)
     @item.image.attach(params[:item][:image])
@@ -17,7 +21,7 @@ class ItemsController < ApplicationController
       flash[:success] = "Item created!"
       redirect_to root_url
     else
-      @feed_items = current_user.feed.paginate(page:params[:page])
+      @feed_items = current_user.feed.paginate(page: params[:page])
       render 'static_pages/home'
     end
   end
