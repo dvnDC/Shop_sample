@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e1c6658-c17a-4897-a84b-38a1126fa072" name="Changes" comment="Drop link_to image from Home">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/items/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shopone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shopone.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/items_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/items_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/items/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-    </list>
+    <list default="true" id="2e1c6658-c17a-4897-a84b-38a1126fa072" name="Changes" comment="System files update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +156,7 @@
       <updated>1641771822531</updated>
       <workItem from="1641771823802" duration="2469000" />
       <workItem from="1643406947594" duration="21000" />
-      <workItem from="1643406970323" duration="13035000" />
+      <workItem from="1643406970323" duration="13434000" />
     </task>
     <task id="LOCAL-00001" summary="Rebuild">
       <created>1641773967402</created>
@@ -244,7 +235,49 @@
       <option name="project" value="LOCAL" />
       <updated>1643422260000</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Create index view for items">
+      <created>1643422334967</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1643422334967</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add show to items_controller">
+      <created>1643422349121</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1643422349121</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Schema update">
+      <created>1643422366797</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1643422366797</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Create basic view for show item">
+      <created>1643422420174</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1643422420174</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Change paginate value for feed_microposts">
+      <created>1643422443426</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1643422443426</updated>
+    </task>
+    <task id="LOCAL-00017" summary="System files update">
+      <created>1643422464541</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1643422464541</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +306,13 @@
     <MESSAGE value="RuboCop style fix" />
     <MESSAGE value="New Help view" />
     <MESSAGE value="Drop link_to image from Home" />
-    <option name="LAST_COMMIT_MESSAGE" value="Drop link_to image from Home" />
+    <MESSAGE value="Create index view for items" />
+    <MESSAGE value="Add show to items_controller" />
+    <MESSAGE value="Schema update" />
+    <MESSAGE value="Create basic view for show item" />
+    <MESSAGE value="Change paginate value for feed_microposts" />
+    <MESSAGE value="System files update" />
+    <option name="LAST_COMMIT_MESSAGE" value="System files update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/shopone@Development__shopone.rcov" NAME="Development: shopone Coverage Results" MODIFIED="1643422057335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shopone" />
