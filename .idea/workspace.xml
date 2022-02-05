@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69024849-a874-4861-8f96-d29a63a0ccb3" name="Changes" comment="Update Gemfile" />
+    <list default="true" id="69024849-a874-4861-8f96-d29a63a0ccb3" name="Changes" comment="Drop node_modules folder for remote">
+      <change beforePath="$PROJECT_DIR$/app/assets/builds/application.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/builds/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ru" beforeDir="false" afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +14,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="migration-to-rails-7" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +59,7 @@
   </component>
   <component name="RunManager" selected="Rails.Development: shopone_old_v7 (copy)">
     <configuration name="Development: shopone_old_v7 (copy)" type="RailsRunConfigurationType" factoryName="Rails">
-      <module name="shopone_old_v7 (copy)" />
+      <module name="shopone" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
@@ -80,7 +84,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Production: shopone_old_v7 (copy)" type="RailsRunConfigurationType" factoryName="Rails">
-      <module name="shopone_old_v7 (copy)" />
+      <module name="shopone" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
@@ -105,7 +109,7 @@
       <method v="2" />
     </configuration>
     <configuration name="spec: shopone_old_v7 (copy)" type="RakeRunConfigurationType" factoryName="Rake">
-      <module name="shopone_old_v7 (copy)" />
+      <module name="shopone" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
@@ -129,7 +133,7 @@
       <method v="2" />
     </configuration>
     <configuration name="test: shopone_old_v7 (copy)" type="RakeRunConfigurationType" factoryName="Rake">
-      <module name="shopone_old_v7 (copy)" />
+      <module name="shopone" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
@@ -156,7 +160,7 @@
       <method v="2" />
     </configuration>
     <configuration name="All tests in test2: shopone_old_v7 (copy) (1)" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <module name="shopone_old_v7 (copy)" />
+      <module name="shopone" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
@@ -188,7 +192,7 @@
       <method v="2" />
     </configuration>
     <configuration name="All tests in test2: shopone_old_v7 (copy)" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <module name="shopone_old_v7 (copy)" />
+      <module name="shopone" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
@@ -321,7 +325,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644020168630</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Migrate to Rails 7.0.1">
+      <created>1644023859566</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1644023859566</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Drop node_modules folder for remote">
+      <created>1644023926240</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1644023926240</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +350,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -347,11 +377,14 @@
     <MESSAGE value="Add new js files for rails 7" />
     <MESSAGE value="Readd old tests" />
     <MESSAGE value="Update Gemfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Gemfile" />
+    <MESSAGE value="Migrate to Rails 7.0.1" />
+    <MESSAGE value="Drop node_modules folder for remote" />
+    <option name="LAST_COMMIT_MESSAGE" value="Drop node_modules folder for remote" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/shoponeNEW@Development__shopone_old_v7__copy_.rcov" NAME="Development: shopone_old_v7 (copy) Coverage Results" MODIFIED="1644023733393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shopone_old_v7 (copy)" />
     <SUITE FILE_PATH="coverage/shopone_old_v7__copy_@All_tests_in_test2__shopone_old_v7__copy_.rcov" NAME="All tests in test2: shopone_old_v7 (copy) Coverage Results" MODIFIED="1643940464705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shopone_old_v7 (copy)" />
     <SUITE FILE_PATH="coverage/shopone_old_v7__copy_@Development__shopone_old_v7__copy_.rcov" NAME="Development: shopone_old_v7 (copy) Coverage Results" MODIFIED="1643940184573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shopone_old_v7 (copy)" />
-    <SUITE FILE_PATH="coverage/shoponeNEW@All_tests_in_test2__shopone_old_v7__copy_.rcov" NAME="All tests in test2: shopone_old_v7 (copy) Coverage Results" MODIFIED="1644023600934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shopone_old_v7 (copy)" />
+    <SUITE FILE_PATH="coverage/shoponeNEW@All_tests_in_test2__shopone_old_v7__copy_.rcov" NAME="All tests in test2: shopone_old_v7 (copy) Coverage Results" MODIFIED="1644023659764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shopone_old_v7 (copy)" />
   </component>
 </project>
