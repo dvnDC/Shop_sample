@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69024849-a874-4861-8f96-d29a63a0ccb3" name="Changes" comment="Drop node_modules folder for remote">
-      <change beforePath="$PROJECT_DIR$/app/assets/builds/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/builds/application.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.ru" beforeDir="false" afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
+    <list default="true" id="69024849-a874-4861-8f96-d29a63a0ccb3" name="Changes" comment="Rename main module">
+      <change beforePath="$PROJECT_DIR$/.idea/shopone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shopone.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../verifier" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
@@ -339,7 +341,28 @@
       <option name="project" value="LOCAL" />
       <updated>1644023926240</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Rename main module">
+      <created>1644024202434</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1644024202434</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Rename main module">
+      <created>1644024238998</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1644024238998</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Rename main module">
+      <created>1644024327051</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1644024327051</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,10 +402,11 @@
     <MESSAGE value="Update Gemfile" />
     <MESSAGE value="Migrate to Rails 7.0.1" />
     <MESSAGE value="Drop node_modules folder for remote" />
-    <option name="LAST_COMMIT_MESSAGE" value="Drop node_modules folder for remote" />
+    <MESSAGE value="Rename main module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename main module" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/shoponeNEW@Development__shopone_old_v7__copy_.rcov" NAME="Development: shopone_old_v7 (copy) Coverage Results" MODIFIED="1644023733393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shopone_old_v7 (copy)" />
+    <SUITE FILE_PATH="coverage/shoponeNEW@Development__shopone_old_v7__copy_.rcov" NAME="Development: shopone_old_v7 (copy) Coverage Results" MODIFIED="1644024295735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shopone" />
     <SUITE FILE_PATH="coverage/shopone_old_v7__copy_@All_tests_in_test2__shopone_old_v7__copy_.rcov" NAME="All tests in test2: shopone_old_v7 (copy) Coverage Results" MODIFIED="1643940464705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shopone_old_v7 (copy)" />
     <SUITE FILE_PATH="coverage/shopone_old_v7__copy_@Development__shopone_old_v7__copy_.rcov" NAME="Development: shopone_old_v7 (copy) Coverage Results" MODIFIED="1643940184573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shopone_old_v7 (copy)" />
     <SUITE FILE_PATH="coverage/shoponeNEW@All_tests_in_test2__shopone_old_v7__copy_.rcov" NAME="All tests in test2: shopone_old_v7 (copy) Coverage Results" MODIFIED="1644023659764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="shopone_old_v7 (copy)" />
