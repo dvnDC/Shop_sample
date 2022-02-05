@@ -19,9 +19,10 @@
     <%= item.content %>
     <%= item.content %>
     <%= image_tag item.display_image if item.image.attached? %>
+  <%= image_tag item.display_image if item.image.attached? %>
 Posted <%= time_ago_in_words(item.created_at) %> ago.
     <% if current_user?(item.user) %>
-<%= link_to "delete", item, method: :delete, data: { confirm: "You sure, dude?" } %>
+<%= link_to "delete", item, method: :delete, data: { confirm: "Are you sure?" } %>
 <% end %>
 </span>
 </li>
