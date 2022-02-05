@@ -1,9 +1,5 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
-
 /* mixins, variables, etc. */
 
-$gray-medium-light: #eaeaea;
 
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
@@ -55,7 +51,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $gray-light;
+  color: gray;
 }
 
 p {
@@ -203,7 +199,7 @@ aside {
   a {
     float: left;
     padding: 0 10px;
-    border-left: 1px solid $gray-lighter;
+    border-left: 1px solid gray;
     color: gray;
     &:first-child {
       padding-left: 0;
@@ -254,9 +250,8 @@ input {
 }
 
 .field_with_errors {
-  @extend  .has-error;
   .form-control {
-    color: $state-danger-text;
+    color: red;
   }
 }
 
@@ -291,7 +286,7 @@ input {
   li {
     overflow: auto;
     padding: 10px 0;
-    border-bottom: 1px solid $gray-lighter;
+    border-bottom: 1px solid gray;
   }
 }
 
@@ -316,7 +311,7 @@ input {
     }
   }
   .timestamp {
-    color: $gray-light;
+    color: gray;
     display: block;
     margin-left: 60px;
   }.gravatar {
@@ -359,7 +354,7 @@ span.image {
     }
   }
   .timestamp {
-    color: $gray-light;
+    color: gray;
     display: block;
     margin-left: 60px;
   }.gravatar {

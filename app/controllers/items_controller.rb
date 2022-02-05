@@ -27,9 +27,10 @@ class ItemsController < ApplicationController
   end
 
   def destroy
+    @item = Item.find(params[:id])
     @item.destroy
     flash[:success] = "Item deleted!"
-    redirect_to request.referrer || root_url
+    redirect_to request.referrer || root_url, status: :see_other
   end
 
   private
@@ -40,6 +41,6 @@ class ItemsController < ApplicationController
 
   def correct_user
     @item = current_user.items.find_by(id: params[:id])
-    redirect_to root_url if @micropost.nil?
+    redirect_to root_url if @item.nil?
   end
 end
