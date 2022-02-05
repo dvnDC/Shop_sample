@@ -16,6 +16,11 @@ Next, migrate the database:
 ```
 $ rails db:migrate
 ```
+Next, for Rails 7 create css and js bundles:
+```
+$ yarn build
+$ yarn build:css
+```
 Finally, run the test suite to verify that everything is working correctly:
 ```
 $ rails test
