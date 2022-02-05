@@ -14,10 +14,15 @@ class MicropostsController < ApplicationController
     end
   end
 
+  # def show ##??? dodane? "TODO"
+  #   @micropost = Micropost.find(params[:id])
+  # end
+
   def destroy
+    @micropost = Micropost.find(params[:id])
     @micropost.destroy
     flash[:success] = "Post deleted!"
-    redirect_to request.referrer || root_url
+    redirect_to root_url, status: :see_other
   end
 
   private
