@@ -11,14 +11,14 @@ See [LICENSE.md](LICENSE.md) for details.
 To get started with the app, clone the repo and then install the needed gems:
 ```
 $ bundle install --without production
-$ yarn install
 ```
 Next, migrate the database:
 ```
 $ rails db:migrate
 ```
-Next, for Rails 7 create css and js bundles:
+Next, for Rails 7 install node packages and create css and js bundles:
 ```
+$ yarn install
 $ yarn build
 $ yarn build:css
 ```
