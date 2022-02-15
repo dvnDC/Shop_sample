@@ -1,5 +1,4 @@
 # Ruby on Rails Shopone application
-This is the sample application for University of Gdansk project.
 
 ## License
 
