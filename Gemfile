@@ -23,7 +23,6 @@ gem 'ffi'
 gem 'ruby-vips' # install libvips-dev || libvips is used as an image processing engine by sharp (on node.js), bimg, sharp for Go, Ruby on Rails
 gem 'active_storage_validations'
 
-gem 'faker', '2.19.0'
 gem "will_paginate", "3.3.1"
 
     # Use Redis adapter to run Action Cable in production
@@ -53,4 +52,10 @@ group :test do
   gem 'guard'
   gem 'guard-minitest'
   gem 'minitest'
+end
+
+group :development, :test do
+  gem 'rspec-rails', '~> 5.0.0'
+  gem 'faker', '2.19.0'
+  gem "factory_bot_rails"
 end
