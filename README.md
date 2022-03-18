@@ -1,4 +1,6 @@
-# Ruby on Rails Shopone application
+# Ruby on Rails social network application
+
+University of Gdansk project.
 
 ## License
 
